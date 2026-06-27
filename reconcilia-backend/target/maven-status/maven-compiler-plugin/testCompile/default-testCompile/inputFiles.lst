@@ -1,2 +1,4 @@
 D:\Reconcilia\reconcilia-backend\src\test\java\com\reconcilia\AbstractIntegrationTest.java
+D:\Reconcilia\reconcilia-backend\src\test\java\com\reconcilia\integration\ReconciliationIT.java
 D:\Reconcilia\reconcilia-backend\src\test\java\com\reconcilia\integration\StatementIngestionIT.java
+D:\Reconcilia\reconcilia-backend\src\test\java\com\reconcilia\service\ReconciliationServiceTest.java

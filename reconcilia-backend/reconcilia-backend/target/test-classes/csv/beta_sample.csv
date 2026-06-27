@@ -1,0 +1,11 @@
+account_id,date,description,reference,amount,type
+ACC002,2024-01-15,Payroll Direct Deposit,BETA-REF-001,5500.00,CR
+ACC002,2024-01-16,Supermarket - CostCo Express,BETA-REF-002,210.30,DR
+ACC002,2024-01-17,Rental Income - Unit 4B,BETA-REF-003,1200.00,CR
+ACC002,2024-01-18,Internet Service - FiberLink,BETA-REF-004,60.00,DR
+ACC002,2024-01-19,ATM Cash Withdrawal,BETA-REF-005,200.00,DR
+ACC002,2024-01-20,Investment Return - ETF Portfolio,BETA-REF-006,450.00,CR
+ACC002,2024-01-21,Fuel Station - QuickFuel,BETA-REF-007,80.00,DR
+ACC002,2024-01-22,Health Insurance Premium,BETA-REF-008,120.00,DR
+ACC002,2024-01-23,Consulting Fee - Project Delta,BETA-REF-009,900.00,CR
+ACC002,2024-01-24,Water & Utilities Payment,BETA-REF-010,95.00,DR

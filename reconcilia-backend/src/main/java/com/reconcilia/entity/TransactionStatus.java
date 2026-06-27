@@ -10,5 +10,7 @@ package com.reconcilia.entity;
  */
 public enum TransactionStatus {
     PENDING,
-    PROCESSED
+    MATCHED,
+    UNMATCHED,
+    DUPLICATE
 }

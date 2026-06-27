@@ -1,0 +1,54 @@
+spring:
+  application:
+    name: reconcilia-backend
+
+  # ── DataSource ──────────────────────────────────────────────────────────────
+  datasource:
+    url: jdbc:postgresql://localhost:5432/reconcilia
+    username: reconcilia
+    password: reconcilia
+    hikari:
+      pool-name: ReconciliaPool
+      maximum-pool-size: 10
+      minimum-idle: 2
+
+  # ── JPA / Hibernate ─────────────────────────────────────────────────────────
+  jpa:
+    # 'validate' lets Flyway own the schema; Hibernate only checks columns exist.
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false     # Prevent the OSIV anti-pattern
+    show-sql: false
+    properties:
+      hibernate.format_sql: true
+
+  # ── Flyway ──────────────────────────────────────────────────────────────────
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true   # Safe for databases that may already exist
+
+  # ── Multipart ────────────────────────────────────────────────────────────────
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+# ── Springdoc / Swagger UI ──────────────────────────────────────────────────
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+  api-docs:
+    path: /v3/api-docs
+
+# ── Logging ─────────────────────────────────────────────────────────────────
+logging:
+  level:
+    com.reconcilia: INFO
+    org.flywaydb: INFO
+    org.hibernate.SQL: WARN
+
+# ── Server ─────────────────────────────────────────────────────────────────
+server:
+  port: 8080

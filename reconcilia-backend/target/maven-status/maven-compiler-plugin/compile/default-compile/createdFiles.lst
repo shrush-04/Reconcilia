@@ -5,12 +5,16 @@ com\reconcilia\exception\CsvParseException.class
 com\reconcilia\ReconciliaApplication.class
 com\reconcilia\entity\SourceBank.class
 com\reconcilia\exception\GlobalExceptionHandler.class
+com\reconcilia\controller\ReconciliationController.class
 com\reconcilia\parser\AlphaBankParser.class
 com\reconcilia\parser\BankStatementParserFactory.class
+com\reconcilia\service\ReconciliationService.class
 com\reconcilia\dto\IngestionResult.class
 com\reconcilia\entity\Transaction.class
 com\reconcilia\parser\BankStatementParser.class
+com\reconcilia\service\ReconciliationService$DuplicateKey.class
 com\reconcilia\controller\StatementController.class
+com\reconcilia\dto\ReconciliationSummary.class
 com\reconcilia\exception\UnknownBankException.class
 com\reconcilia\exception\ErrorResponse.class
 com\reconcilia\parser\BetaBankParser.class

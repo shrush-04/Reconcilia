@@ -22,13 +22,7 @@ import java.time.LocalDate;
  * layer before any INSERT is attempted.
  */
 @Entity
-@Table(
-    name = "transactions",
-    uniqueConstraints = @UniqueConstraint(
-        name = "uc_transactions_reference_number",
-        columnNames = "reference_number"
-    )
-)
+@Table(name = "transactions")
 public class Transaction {
 
     @Id

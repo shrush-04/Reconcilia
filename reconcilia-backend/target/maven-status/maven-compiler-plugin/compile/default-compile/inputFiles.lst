@@ -1,5 +1,7 @@
+D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\controller\ReconciliationController.java
 D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\controller\StatementController.java
 D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\dto\IngestionResult.java
+D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\dto\ReconciliationSummary.java
 D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\entity\SourceBank.java
 D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\entity\Transaction.java
 D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\entity\TransactionStatus.java
@@ -14,4 +16,5 @@ D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\parser\BankStateme
 D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\parser\BetaBankParser.java
 D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\ReconciliaApplication.java
 D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\repository\TransactionRepository.java
+D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\service\ReconciliationService.java
 D:\Reconcilia\reconcilia-backend\src\main\java\com\reconcilia\service\StatementIngestionService.java

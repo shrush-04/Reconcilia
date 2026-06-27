@@ -1,0 +1,3 @@
+account_id,date,description,reference,amount,type
+ACC002,2024-01-16,Reconciliation test match,BETA-MATCH-1,150.00,DR
+ACC002,2024-01-18,Reconciliation test unmatched beta,BETA-UNMATCHED,400.00,CR

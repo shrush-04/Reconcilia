@@ -79,19 +79,18 @@ public class StatementIngestionService {
                 ? Collections.emptySet()
                 : transactionRepository.findReferenceNumbersIn(incomingRefs);
 
-        // 4. Partition: skip duplicates (both DB-existing and intra-batch duplicates)
+        // 4. Partition: skip duplicate reference numbers that already exist in the database,
+        // but allow duplicates within the same batch to be persisted so that reconciliation can process them.
         List<Transaction> toSave = new ArrayList<>();
-        Set<String> processedRefs = new HashSet<>();
         int duplicateCount = 0;
 
         for (Transaction tx : transactions) {
             String ref = tx.getReferenceNumber();
-            if (existingRefs.contains(ref) || processedRefs.contains(ref)) {
+            if (existingRefs.contains(ref)) {
                 log.debug("Skipping duplicate referenceNumber={}", ref);
                 duplicateCount++;
             } else {
-                processedRefs.add(ref);
-                tx.setStatus(TransactionStatus.PROCESSED);
+                tx.setStatus(TransactionStatus.PENDING);
                 toSave.add(tx);
             }
         }

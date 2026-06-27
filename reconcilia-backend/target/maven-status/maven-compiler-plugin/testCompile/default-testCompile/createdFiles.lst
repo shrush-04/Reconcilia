@@ -1,2 +1,5 @@
-com\reconcilia\AbstractIntegrationTest.class
+com\reconcilia\integration\ReconciliationIT.class
+com\reconcilia\service\ReconciliationServiceTest.class
+com\reconcilia\integration\ReconciliationIT$1.class
 com\reconcilia\integration\StatementIngestionIT.class
+com\reconcilia\AbstractIntegrationTest.class

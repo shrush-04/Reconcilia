@@ -1,16 +1,28 @@
 package com.reconcilia.repository;
 
 import com.reconcilia.entity.Transaction;
+import com.reconcilia.entity.TransactionStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
 @Repository
 public interface TransactionRepository extends JpaRepository<Transaction, Long> {
+
+    /**
+     * Returns all transactions with the given status.
+     */
+    List<Transaction> findByStatus(TransactionStatus status);
+
+    /**
+     * Returns all transactions for the given account ID.
+     */
+    List<Transaction> findByAccountId(String accountId);
 
     /**
      * Returns only the reference numbers that already exist in the database,
