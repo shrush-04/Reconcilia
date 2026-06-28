@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.reconcilia.service.ReconciliationServiceTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.496 s -- in com.reconcilia.service.ReconciliationServiceTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.161 s -- in com.reconcilia.service.ReconciliationServiceTest
