@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.reconcilia.integration.ReconciliationIT
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.244 s -- in com.reconcilia.integration.ReconciliationIT
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.900 s -- in com.reconcilia.integration.ReconciliationIT

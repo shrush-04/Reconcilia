@@ -1,0 +1,11 @@
+account_id,date,description,reference,debit,credit
+ACC001,2024-01-15,Opening Balance Transfer,ALPHA-REF-001,,10000.00
+ACC001,2024-01-16,Grocery Store - FreshMart,ALPHA-REF-002,156.75,
+ACC001,2024-01-17,Monthly Salary Deposit,ALPHA-REF-003,,4250.00
+ACC001,2024-01-18,Electricity Bill - PowerGrid,ALPHA-REF-004,89.50,
+ACC001,2024-01-19,Online Transfer to Savings,ALPHA-REF-005,500.00,
+ACC001,2024-01-20,Dividend Income - Q4 2023,ALPHA-REF-006,,320.00
+ACC001,2024-01-21,Restaurant - The Grill House,ALPHA-REF-007,45.20,
+ACC001,2024-01-22,Gym Membership Auto-Debit,ALPHA-REF-008,35.00,
+ACC001,2024-01-23,Freelance Invoice #INV-2024-01,ALPHA-REF-009,,800.00
+ACC001,2024-01-24,Mobile Recharge - Prepaid,ALPHA-REF-010,25.00,

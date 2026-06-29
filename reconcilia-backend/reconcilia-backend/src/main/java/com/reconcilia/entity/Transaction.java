@@ -22,6 +22,9 @@ import java.time.LocalDate;
  * layer before any INSERT is attempted.
  */
 @Entity
+<<<<<<< HEAD
+@Table(name = "transactions")
+=======
 @Table(
     name = "transactions",
     uniqueConstraints = @UniqueConstraint(
@@ -29,6 +32,7 @@ import java.time.LocalDate;
         columnNames = "reference_number"
     )
 )
+>>>>>>> e815eb3 (solve the backend doker rleated error)
 public class Transaction {
 
     @Id

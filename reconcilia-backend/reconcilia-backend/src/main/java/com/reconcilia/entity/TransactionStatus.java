@@ -10,5 +10,11 @@ package com.reconcilia.entity;
  */
 public enum TransactionStatus {
     PENDING,
+<<<<<<< HEAD
+    MATCHED,
+    UNMATCHED,
+    DUPLICATE
+=======
     PROCESSED
+>>>>>>> e815eb3 (solve the backend doker rleated error)
 }

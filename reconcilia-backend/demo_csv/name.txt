@@ -1,1 +1,20 @@
 Shrushti mangalekar
+<<<<<<< HEAD
+Phase 1 — Backend core
+Build the Spring Boot backend for "Reconcilia," a multi-bank statement reconciliation engine. Create:
+- A Transaction entity (id, accountId, date, amount, description, referenceNumber, sourceBank, status) with PostgreSQL via Spring Data JPA
+- A file ingestion service that accepts CSV uploads from 2 different sample bank formats and normalizes them into the Transaction schema
+- Sample CSV files with realistic fake data for both bank formats
+- A POST /api/statements/upload endpoint
+Test that uploading a CSV correctly creates normalized Transaction records in the database.
+Phase 2 — Reconciliation logic
+Add to the existing Reconcilia backend:
+- A reconciliation service that detects duplicates (same amount/date/reference appearing more than once) and matches transactions across sources with a date-tolerance window, classifying each as MATCHED, DUPLICATE, or UNMATCHED
+- Endpoints: POST /api/reconciliation/run, GET /api/reconciliation/matched, GET /api/reconciliation/unmatched, GET /api/reconciliation/duplicates, GET /api/transactions/{accountId}
+Test the full upload-to-reconciliation flow using sample data.
+Phase 3 — Frontend pages (no integration yet)
+Build the React + Tailwind frontend for "Reconcilia" with React Router: Home, How It Works, Architecture, About pages, matching this design brief: [paste the designarena.ai prompt above]. Use mock/placeholder data for now — don't connect to the backend yet.
+Phase 4 — Dashboard (Reconcilia Console) + real integration
+Build the Reconcilia Console (Dashboard) page connected to the real backend APIs: upload CSV, trigger reconciliation, and display matched/unmatched/duplicate results in a filterable table. Set up CORS on the Spring Boot backend. Test the full flow end-to-end in the browser.
+=======
+>>>>>>> e815eb3 (solve the backend doker rleated error)
