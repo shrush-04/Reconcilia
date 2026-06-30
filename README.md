@@ -223,7 +223,6 @@ Real bank statements often record the same transaction on slightly different dat
 
 ## 🖼 Screenshots
 
-> 📸 Screenshots coming — add your own below once captured.
 
 | Screen | Description |
 |---|---|
@@ -233,16 +232,6 @@ Real bank statements often record the same transaction on slightly different dat
 
 ---
 
-## ✅ TODO (Before Submission)
-
-- [ ] Add demo GIF / video walkthrough to README
-- [ ] Host on Render and add live URL here
-- [ ] Add `application.example.properties` file
-- [ ] Add architecture diagram image to `/docs`
-- [ ] Add sample CSV files for each bank format to `/test-data`
-- [ ] Add HackerRank / LeetCode profile link to GitHub bio
-
----
 
 ## 🔮 Future Improvements
 
