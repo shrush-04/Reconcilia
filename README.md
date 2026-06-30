@@ -147,27 +147,8 @@ Frontend runs at `http://localhost:5173`
 
 ---
 
-## 🚀 Usage
 
-### Via Swagger UI
-Visit `http://localhost:8080/swagger-ui.html` to explore and test all endpoints interactively.
 
-### Via API (curl examples)
-
-```bash
-# Upload a bank statement
-curl -X POST http://localhost:8080/api/statements/upload \
-  -F "file=@bank_a_statement.csv" \
-  -F "bankId=BANK_A"
-
-# Run reconciliation
-curl -X POST http://localhost:8080/api/reconciliation/run
-
-# Query results by classification
-curl http://localhost:8080/api/transactions?status=UNMATCHED
-```
-
----
 
 ## 📁 Folder Structure
 
